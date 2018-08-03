@@ -3,35 +3,49 @@ html, body {
     box-sizing: border-box;
     width: 100%;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+p {
+    font-family: 'Abel', sans-serif;
+}
 
-/*.topNav {*/
-    /*display: inline-block;*/
-    /*list-style-type: none;*/
-    /*padding: 0;*/
-    /*margin: 0;*/
-    /*text-align: center;*/
-/*}*/
 nav {
     width: 100%;
 }
 
 .topNav {
     line-height: 5;
+    position: relative;
+    float: right;
+}
+
+.navRow {
+    height: 75px;
+}
+.logoWords {
+    position: relative;
+    padding-left: 7em;
+    line-height: 5;
 }
 
 .topRow {
-    height: 2em;
+    height: 3em;
     width: 100%;
+}
+.logoCol {
+    position: relative;
+    height: 6.1em;
 }
 
 .logo {
     background-image: url('/assets/logo.jpg');
+    position: absolute;
     height: 105px;
     width: 105px;
-    text-align: center;
-    z-index: 1050;
-
+    bottom: .5em;
 }
 .heading {
     text-align: center;
+    font-weight: bold;
 }
