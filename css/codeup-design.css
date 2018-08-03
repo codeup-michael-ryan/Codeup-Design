@@ -25,8 +25,9 @@ nav {
 }
 .logoWords {
     position: relative;
-    padding-left: 7em;
-    line-height: 5;
+    padding-left: 4.5em;
+    line-height: 3;
+    font-size: 1.5em;
 }
 
 .topRow {
@@ -48,4 +49,57 @@ nav {
 .heading {
     text-align: center;
     font-weight: bold;
+}
+
+.buttons {
+    list-type-style: none;
+    padding: 0;
+    margin: 0;
+}
+.listRow {
+    /*height: ;*/
+    /*width: 8em;*/
+}
+.design {
+    /*position: relative;*/
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: #E6563B;
+    text-decoration: none;
+    height: 6em;
+    width: 6em;
+    text-align: center;
+    line-height: 5;
+    color: white;
+}
+.develop {
+    /*position: relative;*/
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: #EB9D3A;
+    text-decoration: none;
+    height: 6em;
+    width: 6em;
+    text-align: center;
+    line-height: 5;
+}
+.support {
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: #7CB06C;
+    text-decoration: none;
+    height: 6em;
+    width: 6em;
+    text-align: center;
+    line-height: 5;
+}
+.host {
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: #00ABA9;
+    text-decoration: none;
+    height: 6em;
+    width: 6em;
+    text-align: center;
+    line-height: 5;
 }
