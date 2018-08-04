@@ -6,7 +6,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
-p {
+p, a {
     font-family: 'Abel', sans-serif;
 }
 
@@ -29,7 +29,6 @@ nav {
     line-height: 3;
     font-size: 1.5em;
 }
-
 .topRow {
     height: 3em;
     width: 100%;
@@ -104,4 +103,55 @@ nav {
     width: 6em;
     text-align: center;
     line-height: 5;
+}
+hr {
+    size: 4px;
+}
+/*.apple-ipad {*/
+    /*height: 150px;*/
+    /*width: 250px;*/
+/*}*/
+/*.macbook {*/
+    /*height: 150px;*/
+    /*width: 250px;*/
+/*}*/
+.smButtons {
+    height: 18px;
+    width: 18px;
+    line-height: 2;
+}
+.d {
+    border: none;
+    border-radius: 50%;
+    background-color: #E6563B;
+    text-decoration: none;
+    text-align: center;
+    /*line-height: 4;*/
+}
+.d2 {
+    border: none;
+    border-radius: 50%;
+    background-color: #EB9D3A;
+    text-decoration: none;
+    text-align: center;
+    /*line-height: 4;*/
+}
+.s {
+    border: none;
+    border-radius: 50%;
+    background-color: #7CB06C;
+    text-decoration: none;
+    text-align: center;
+    /*line-height: 4;*/
+}
+.h {
+    border: none;
+    border-radius: 50%;
+    background-color: #00ABA9;
+    text-align: center;
+    /*line-height: 4;*/
+}
+.smallPic {
+    width: 80px;
+    height: 80px;
 }
