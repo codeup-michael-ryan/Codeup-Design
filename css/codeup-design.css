@@ -107,18 +107,17 @@ nav {
 hr {
     size: 4px;
 }
-/*.apple-ipad {*/
-    /*height: 150px;*/
-    /*width: 250px;*/
-/*}*/
-/*.macbook {*/
-    /*height: 150px;*/
-    /*width: 250px;*/
-/*}*/
+.centerImg {
+    width: 70%;
+    height: auto;
+}
+
+
 .smButtons {
     height: 18px;
     width: 18px;
     line-height: 2;
+    margin-right:8em;
 }
 .d {
     border: none;
@@ -154,4 +153,9 @@ hr {
 .smallPic {
     width: 80px;
     height: 80px;
+}
+.smallPicCol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
