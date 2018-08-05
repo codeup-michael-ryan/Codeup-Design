@@ -15,7 +15,7 @@ nav {
 }
 
 .topNav {
-    line-height: 5;
+    /*line-height: 5;*/
     position: relative;
     float: right;
 }
@@ -24,28 +24,21 @@ nav {
     height: 75px;
 }
 .logoWords {
-    position: relative;
-    padding-left: 4.5em;
-    line-height: 3;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .topRow {
     height: 3em;
     width: 100%;
 }
-.logoCol {
-    position: relative;
-    height: 6.1em;
-}
+
 
 .logo {
     background-image: url('/assets/logo.jpg');
-    position: absolute;
+    /*position: absolute;*/
     height: 105px;
     width: 105px;
     bottom: .5em;
     left: 2.7em;
-
 }
 .heading {
     text-align: center;
@@ -108,7 +101,7 @@ hr {
     size: 4px;
 }
 .centerImg {
-    width: 70%;
+    width: 90%;
     height: auto;
 }
 
@@ -117,7 +110,7 @@ hr {
     height: 18px;
     width: 18px;
     line-height: 2;
-    margin-right:8em;
+    margin-right: 3em;
 }
 .d {
     border: none;
