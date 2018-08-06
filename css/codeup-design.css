@@ -33,12 +33,8 @@ nav {
 
 
 .logo {
-    background-image: url('/assets/logo.jpg');
-    /*position: absolute;*/
     height: 105px;
     width: 105px;
-    bottom: .5em;
-    left: 2.7em;
 }
 .heading {
     text-align: center;
@@ -46,7 +42,7 @@ nav {
 }
 
 .buttons {
-    list-type-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
@@ -101,7 +97,7 @@ hr {
     size: 4px;
 }
 .centerImg {
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 
@@ -110,7 +106,7 @@ hr {
     height: 18px;
     width: 18px;
     line-height: 2;
-    margin-right: 3em;
+    margin-right: 5em;
 }
 .d {
     border: none;
